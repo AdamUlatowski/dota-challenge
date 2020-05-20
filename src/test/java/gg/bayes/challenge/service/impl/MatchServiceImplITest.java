@@ -17,6 +17,7 @@ import gg.bayes.challenge.rest.model.HeroItems;
 import gg.bayes.challenge.rest.model.HeroKills;
 import gg.bayes.challenge.rest.model.HeroSpells;
 import java.io.IOException;
+import java.text.MessageFormat;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
@@ -101,23 +102,25 @@ class MatchServiceImplITest {
   @Nested
   class TestWithLoadedFile {
 
-    @BeforeEach
-    void setup() throws IOException {
-      // arrange
+    private Long setupDB() throws IOException {
       clearDB();
       HttpHeaders headers = new HttpHeaders();
       headers.setContentType(MediaType.TEXT_PLAIN);
       byte [] matchFile = ByteStreams.toByteArray(getClass().getResourceAsStream(
           "/combatlog_short.log.txt"));
       HttpEntity<byte[]> fileEntity = new HttpEntity<>(matchFile, headers);
-      testRestTemplate.postForEntity(
-          "/api/match", fileEntity, Long.class);
+      return testRestTemplate.postForEntity(
+          "/api/match", fileEntity, Long.class).getBody();
     }
 
     @Test
-    void testGetItems() {
+    void testGetItems() throws IOException {
+      // arrange
+      Long matchId = setupDB();
+
       // act
-      var responseEntity = testRestTemplate.exchange("/api/match/1/abyssal_underlord/items",
+      var responseEntity = testRestTemplate.exchange(
+          MessageFormat.format("/api/match/{0}/abyssal_underlord/items", matchId),
           HttpMethod.GET, null, new ParameterizedTypeReference<List<HeroItems>>() {});
 
       assertThat(responseEntity).isNotNull();
@@ -127,9 +130,13 @@ class MatchServiceImplITest {
     }
 
     @Test
-    void testGetKills() {
+    void testGetKills() throws IOException {
+      // arrange
+      Long matchId = setupDB();
+
       // act
-      var responseEntity = testRestTemplate.exchange("/api/match/1",
+      var responseEntity = testRestTemplate.exchange(
+          MessageFormat.format("/api/match/{0}", matchId),
           HttpMethod.GET, null, new ParameterizedTypeReference<List<HeroKills>>() {});
 
       assertThat(responseEntity).isNotNull();
@@ -140,9 +147,13 @@ class MatchServiceImplITest {
     }
 
     @Test
-    void testGetSpells() {
+    void testGetSpells() throws IOException {
+      // arrange
+      Long matchId = setupDB();
+
       // act
-      var responseEntity = testRestTemplate.exchange("/api/match/1/abyssal_underlord/spells",
+      var responseEntity = testRestTemplate.exchange(
+          MessageFormat.format("/api/match/{0}/abyssal_underlord/spells", matchId),
           HttpMethod.GET, null, new ParameterizedTypeReference<List<HeroSpells>>() {});
 
       assertThat(responseEntity).isNotNull();
@@ -153,9 +164,13 @@ class MatchServiceImplITest {
     }
 
     @Test
-    void testGetDamage() {
+    void testGetDamage() throws IOException {
+      // arrange
+      Long matchId = setupDB();
+
       // act
-      var responseEntity = testRestTemplate.exchange("/api/match/1/abyssal_underlord/damage",
+      var responseEntity = testRestTemplate.exchange(
+          MessageFormat.format("/api/match/{0}/abyssal_underlord/damage", matchId),
           HttpMethod.GET, null, new ParameterizedTypeReference<List<HeroDamage>>() {});
 
       assertThat(responseEntity).isNotNull();
