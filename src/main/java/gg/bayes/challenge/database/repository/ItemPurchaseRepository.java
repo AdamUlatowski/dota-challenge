@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ItemPurchaseRepository extends JpaRepository<ItemPurchaseEvent, Long> {
+
   Optional<List<ItemPurchaseEvent>> findByMatchIdAndHeroNameOrderByCreatedAsc(Long id, String name);
 }

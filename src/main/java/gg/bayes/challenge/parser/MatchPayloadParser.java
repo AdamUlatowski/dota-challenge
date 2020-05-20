@@ -16,15 +16,15 @@ public class MatchPayloadParser {
     return Arrays.stream(line.split("\\s+"))
         .filter(s -> s.contains("npc_dota_hero_"))
         .findFirst()
-        .map(h -> Hero.builder().name(StringUtils.removeStart(h,"npc_dota_hero_")).build())
+        .map(h -> Hero.builder().name(StringUtils.removeStart(h, "npc_dota_hero_")).build())
         .orElse(null);
   }
 
-  public Hero parseSecondHero(String line) {
+  public Hero parseLastHero(String line) {
     return Arrays.stream(line.split("\\s+"))
         .filter(s -> s.contains("npc_dota_hero_"))
         .reduce((first, second) -> second)
-        .map(h -> Hero.builder().name(StringUtils.removeStart(h,"npc_dota_hero_")).build())
+        .map(h -> Hero.builder().name(StringUtils.removeStart(h, "npc_dota_hero_")).build())
         .orElse(null);
   }
 
@@ -32,7 +32,7 @@ public class MatchPayloadParser {
     return Arrays.stream(line.split("\\s+"))
         .filter(s -> s.contains("item_"))
         .findFirst()
-        .map(h -> Item.builder().name(StringUtils.removeStart(h,"item_")).build())
+        .map(h -> Item.builder().name(StringUtils.removeStart(h, "item_")).build())
         .orElse(null);
   }
 

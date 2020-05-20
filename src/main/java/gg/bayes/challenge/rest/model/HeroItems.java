@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class HeroItems {
-    private String item;
-    private Long timestamp;
+
+  private String item;
+  private Long timestamp;
 }

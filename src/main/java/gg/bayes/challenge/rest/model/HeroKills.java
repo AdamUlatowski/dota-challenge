@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class HeroKills {
-    private String hero;
-    private Integer kills;
+
+  private String hero;
+  private Integer kills;
 }

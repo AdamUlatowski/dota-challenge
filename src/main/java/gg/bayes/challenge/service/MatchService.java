@@ -7,9 +7,14 @@ import gg.bayes.challenge.rest.model.HeroSpells;
 import java.util.List;
 
 public interface MatchService {
-    Long ingestMatch(String payload);
-    List<HeroKills> getHeroKills(Long matchId);
-    List<HeroItems> getHeroItems(Long matchId, String heroName);
-    List<HeroSpells> getHeroSpells(Long matchId, String heroName);
-    List<HeroDamage> getHeroDamages(Long matchId, String heroName);
+
+  Long ingestMatch(String payload);
+
+  List<HeroKills> getHeroKills(Long matchId);
+
+  List<HeroItems> getHeroItems(Long matchId, String heroName);
+
+  List<HeroSpells> getHeroSpells(Long matchId, String heroName);
+
+  List<HeroDamage> getHeroDamages(Long matchId, String heroName);
 }

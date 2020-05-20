@@ -13,14 +13,14 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
-    @Bean
-    public Docket api() {
-        return new Docket(DocumentationType.SWAGGER_2)
-                .select()
-                .apis(RequestHandlerSelectors.basePackage("gg.bayes.challenge.rest.controller"))
-                .paths(Predicates.not(PathSelectors.regex("/error"))) // Exclude Spring error controllers
-                .build();
-    }
+  @Bean
+  public Docket api() {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .select()
+        .apis(RequestHandlerSelectors.basePackage("gg.bayes.challenge.rest.controller"))
+        .paths(Predicates.not(PathSelectors.regex("/error"))) // Exclude Spring error controllers
+        .build();
+  }
 
 }
 

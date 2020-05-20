@@ -21,11 +21,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @Entity(name = "damage_event")
 public class DamageEvent extends Event {
+
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name="assailant_id", referencedColumnName = "id", nullable = false)
+  @JoinColumn(name = "assailant_id", referencedColumnName = "id", nullable = false)
   private Hero assailant;
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name="victim_id", referencedColumnName = "id", nullable = false)
+  @JoinColumn(name = "victim_id", referencedColumnName = "id", nullable = false)
   private Hero victim;
   private Integer damage;
 }

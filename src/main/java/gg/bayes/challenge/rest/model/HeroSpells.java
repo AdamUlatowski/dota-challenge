@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class HeroSpells {
-    private String spell;
-    private Integer casts;
+
+  private String spell;
+  private Integer casts;
 }

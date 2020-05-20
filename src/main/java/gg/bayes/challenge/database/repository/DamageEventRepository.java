@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface DamageEventRepository extends JpaRepository<DamageEvent, Long> {
+
   Optional<List<DamageEvent>> findByMatchIdAndAssailantName(Long id, String name);
 }

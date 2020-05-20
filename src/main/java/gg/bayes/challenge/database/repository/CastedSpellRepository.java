@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CastedSpellRepository extends JpaRepository<CastedSpellEvent, Long> {
+
   Optional<List<CastedSpellEvent>> findByMatchIdAndHeroName(Long id, String name);
 }

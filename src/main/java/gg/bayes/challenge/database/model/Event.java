@@ -18,12 +18,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @MappedSuperclass
 public class Event {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
   @Basic
   public LocalTime created;
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name="match_id", referencedColumnName = "id", nullable = false)
+  @JoinColumn(name = "match_id", referencedColumnName = "id", nullable = false)
   private Match match;
 }

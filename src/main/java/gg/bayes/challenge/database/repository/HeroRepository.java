@@ -7,5 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface HeroRepository extends JpaRepository<Hero, Long> {
+
   Optional<Hero> findByName(String name);
 }
