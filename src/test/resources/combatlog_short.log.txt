@@ -1,0 +1,300 @@
+[00:00:04.999] game state is now 2
+[00:00:04.999] game state is now 9
+[00:07:41.042] game state is now 3
+[00:08:41.061] game state is now 8
+[00:08:41.061] game state is now 10
+[00:08:41.094] game state is now 4
+[00:08:43.460] npc_dota_hero_pangolier casts ability pangolier_swashbuckle (lvl 1) on dota_unknown
+[00:08:46.693] npc_dota_hero_snapfire buys item item_clarity
+[00:08:46.759] npc_dota_hero_dragon_knight buys item item_quelling_blade
+[00:08:46.992] npc_dota_hero_dragon_knight buys item item_gauntlets
+[00:08:47.426] npc_dota_hero_dragon_knight buys item item_gauntlets
+[00:08:48.059] npc_dota_hero_dragon_knight buys item item_circlet
+[00:08:48.159] npc_dota_hero_puck buys item item_tango
+[00:08:49.758] npc_dota_hero_puck buys item item_sobi_mask
+[00:08:49.792] npc_dota_hero_puck buys item item_ring_of_basilius
+[00:08:49.792] npc_dota_hero_puck buys item item_recipe_ring_of_basilius
+[00:08:50.292] npc_dota_hero_mars buys item item_quelling_blade
+[00:08:50.325] npc_dota_hero_puck buys item item_branches
+[00:08:50.458] npc_dota_hero_puck buys item item_branches
+[00:08:50.891] npc_dota_hero_rubick buys item item_sobi_mask
+[00:08:50.925] npc_dota_hero_rubick buys item item_ring_of_basilius
+[00:08:50.925] npc_dota_hero_rubick buys item item_recipe_ring_of_basilius
+[00:08:51.391] npc_dota_hero_rubick buys item item_branches
+[00:08:51.658] npc_dota_hero_mars buys item item_tango
+[00:08:51.825] npc_dota_hero_mars buys item item_tango
+[00:08:52.025] npc_dota_hero_mars buys item item_flask
+[00:08:52.358] npc_dota_hero_rubick buys item item_tango
+[00:08:52.558] npc_dota_hero_mars buys item item_branches
+[00:08:52.691] npc_dota_hero_mars buys item item_branches
+[00:08:52.791] npc_dota_hero_rubick buys item item_enchanted_mango
+[00:08:53.058] npc_dota_hero_rubick buys item item_ward_observer
+[00:09:01.189] npc_dota_hero_bloodseeker buys item item_quelling_blade
+[00:09:01.422] npc_dota_hero_bloodseeker buys item item_ring_of_protection
+[00:09:01.756] npc_dota_hero_bloodseeker buys item item_branches
+[00:09:01.922] npc_dota_hero_bloodseeker buys item item_branches
+[00:09:02.522] npc_dota_hero_bloodseeker buys item item_tango
+[00:09:02.689] npc_dota_hero_bloodseeker buys item item_tango
+[00:09:07.521] npc_dota_hero_pangolier uses item_quelling_blade
+[00:09:11.953] npc_dota_hero_abyssal_underlord uses item_quelling_blade
+[00:09:13.853] npc_dota_hero_death_prophet uses item_ward_observer
+[00:09:14.019] npc_dota_hero_dragon_knight uses item_ward_observer
+[00:09:24.150] npc_dota_hero_pangolier uses item_quelling_blade
+[00:09:27.616] npc_dota_hero_mars uses item_quelling_blade
+[00:09:30.115] npc_dota_hero_pangolier uses item_quelling_blade
+[00:09:35.247] npc_dota_hero_abyssal_underlord uses item_quelling_blade
+[00:09:37.847] npc_dota_hero_pangolier uses item_quelling_blade
+[00:09:39.413] npc_dota_hero_abyssal_underlord uses item_quelling_blade
+[00:09:43.879] npc_dota_hero_abyssal_underlord uses item_quelling_blade
+[00:09:45.911] npc_dota_hero_pangolier uses item_quelling_blade
+[00:09:49.344] npc_dota_hero_abyssal_underlord uses item_quelling_blade
+[00:09:50.410] npc_dota_hero_pangolier uses item_quelling_blade
+[00:09:54.809] npc_dota_hero_abyssal_underlord uses item_quelling_blade
+[00:10:07.739] npc_dota_hero_mars uses item_quelling_blade
+[00:10:11.105] game state is now 5
+[00:10:41.998] npc_dota_hero_abyssal_underlord casts ability abyssal_underlord_firestorm (lvl 1) on dota_unknown
+[00:10:42.031] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 51 damage (740->689)
+[00:10:42.031] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (720->702)
+[00:10:42.031] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (702->697)
+[00:10:43.064] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (698->693)
+[00:10:43.064] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (693->675)
+[00:10:43.631] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 48 damage (694->646)
+[00:10:44.064] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (677->672)
+[00:10:45.064] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (674->669)
+[00:10:45.130] npc_dota_hero_death_prophet buys item item_circlet
+[00:10:45.130] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (669->651)
+[00:10:45.130] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (651->646)
+[00:10:45.830] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 47 damage (626->579)
+[00:10:45.930] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:10:46.163] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (647->642)
+[00:10:46.763] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 44 damage (700->656)
+[00:10:47.163] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (644->639)
+[00:10:47.196] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (639->619)
+[00:10:47.196] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (618->613)
+[00:10:48.230] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (615->610)
+[00:10:49.096] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 42 damage (600->558)
+[00:10:49.229] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (611->606)
+[00:10:50.062] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 63 damage (580->517)
+[00:10:50.096] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 39 damage (669->630)
+[00:10:50.096] npc_dota_hero_bloodseeker hits npc_dota_hero_abyssal_underlord with dota_unknown for 52 damage (553->501)
+[00:10:51.662] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 40 damage (637->597)
+[00:10:51.962] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 61 damage (522->461)
+[00:10:52.129] npc_dota_hero_rubick casts ability rubick_fade_bolt (lvl 1) on npc_dota_creep_goodguys_ranged
+[00:10:52.229] npc_dota_hero_abyssal_underlord buys item item_magic_stick
+[00:10:52.395] npc_dota_hero_rubick hits npc_dota_hero_pangolier with rubick_fade_bolt for 54 damage (600->546)
+[00:10:53.595] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 64 damage (464->400)
+[00:10:53.995] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 40 damage (572->532)
+[00:10:54.261] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 39 damage (640->601)
+[00:10:54.928] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (593->648)
+[00:10:55.694] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 39 damage (538->499)
+[00:10:55.928] npc_dota_hero_bane casts ability bane_brain_sap (lvl 1) on npc_dota_hero_puck
+[00:10:55.928] npc_dota_hero_bane hits npc_dota_hero_puck with bane_brain_sap for 75 damage (405->330)
+[00:10:55.928] npc_dota_hero_bane's bane_brain_sap heals npc_dota_hero_bane for 75 health (615->690)
+[00:10:56.494] npc_dota_hero_pangolier casts ability pangolier_swashbuckle (lvl 1) on dota_unknown
+[00:10:57.127] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 36 damage (504->468)
+[00:10:57.794] npc_dota_hero_puck uses item_tango
+[00:10:58.794] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 38 damage (472->434)
+[00:10:58.827] npc_dota_hero_puck buys item item_circlet
+[00:10:59.560] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 42 damage (616->574)
+[00:10:59.893] npc_dota_hero_snapfire casts ability snapfire_scatterblast (lvl 1) on dota_unknown
+[00:10:59.993] npc_dota_hero_snapfire hits npc_dota_hero_rubick with snapfire_scatterblast for 89 damage (574->485)
+[00:11:00.127] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 36 damage (438->402)
+[00:11:01.193] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 39 damage (489->450)
+[00:11:01.493] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 39 damage (405->366)
+[00:11:01.926] npc_dota_hero_snapfire uses item_tango
+[00:11:02.659] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 40 damage (453->413)
+[00:11:02.759] npc_dota_hero_death_prophet buys item item_mantle
+[00:11:02.859] npc_dota_hero_rubick uses item_tango
+[00:11:02.959] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 36 damage (378->342)
+[00:11:04.026] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 38 damage (425->387)
+[00:11:04.192] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 37 damage (354->317)
+[00:11:05.325] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 42 damage (400->358)
+[00:11:05.525] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 41 damage (331->290)
+[00:11:05.925] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:11:06.825] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 38 damage (371->333)
+[00:11:07.058] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 46 damage (304->258)
+[00:11:07.325] npc_dota_hero_pangolier uses item_tango
+[00:11:08.325] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 37 damage (348->311)
+[00:11:08.325] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 50 damage (270->220)
+[00:11:09.691] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 42 damage (324->282)
+[00:11:09.924] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 42 damage (237->195)
+[00:11:10.224] npc_dota_hero_rubick casts ability rubick_fade_bolt (lvl 1) on npc_dota_hero_snapfire
+[00:11:10.224] npc_dota_hero_rubick hits npc_dota_hero_snapfire with rubick_fade_bolt for 60 damage (197->137)
+[00:11:10.491] npc_dota_hero_rubick hits npc_dota_hero_pangolier with rubick_fade_bolt for 54 damage (437->383)
+[00:11:11.157] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 22 damage (296->274)
+[00:11:12.090] npc_dota_hero_pangolier hits npc_dota_hero_rubick with dota_unknown for 32 damage (282->250)
+[00:11:12.790] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 21 damage (257->236)
+[00:11:13.457] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 44 damage (169->125)
+[00:11:13.623] npc_dota_hero_snapfire casts ability snapfire_scatterblast (lvl 1) on dota_unknown
+[00:11:13.757] npc_dota_hero_snapfire hits npc_dota_hero_rubick with snapfire_scatterblast for 59 damage (244->185)
+[00:11:13.857] npc_dota_hero_pangolier hits npc_dota_hero_rubick with dota_unknown for 31 damage (185->154)
+[00:11:14.023] npc_dota_hero_abyssal_underlord uses item_tango
+[00:11:14.256] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 26 damage (158->132)
+[00:11:14.823] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 47 damage (139->92)
+[00:11:15.256] npc_dota_hero_pangolier hits npc_dota_hero_rubick with dota_unknown for 29 damage (142->113)
+[00:11:15.290] npc_dota_hero_abyssal_underlord casts ability abyssal_underlord_firestorm (lvl 1) on dota_unknown
+[00:11:15.323] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (585->567)
+[00:11:15.323] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (567->562)
+[00:11:15.456] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 22 damage (114->92)
+[00:11:16.056] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 48 damage (104->56)
+[00:11:16.356] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (565->560)
+[00:11:16.356] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (559->541)
+[00:11:16.689] npc_dota_hero_pangolier hits npc_dota_hero_rubick with dota_unknown for 31 damage (103->72)
+[00:11:16.823] npc_dota_hero_snapfire hits npc_dota_hero_rubick with dota_unknown for 22 damage (72->50)
+[00:11:17.056] npc_dota_hero_mars casts ability mars_spear (lvl 1) on dota_unknown
+[00:11:17.289] npc_dota_hero_mars hits npc_dota_hero_pangolier with mars_spear for 74 damage (445->371)
+[00:11:17.356] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (543->538)
+[00:11:17.389] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (538->520)
+[00:11:17.422] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:11:17.489] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 46 damage (69->23)
+[00:11:17.489] npc_dota_hero_mars hits npc_dota_hero_snapfire with mars_spear for 74 damage
+[00:11:17.489] npc_dota_hero_snapfire is killed by npc_dota_hero_mars
+[00:11:18.355] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (521->516)
+[00:11:18.422] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (516->496)
+[00:11:18.555] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 49 damage (627->578)
+[00:11:18.922] npc_dota_hero_mars hits npc_dota_hero_pangolier with dota_unknown for 46 damage (385->339)
+[00:11:19.022] npc_dota_hero_pangolier hits npc_dota_hero_rubick with dota_unknown for 29 damage (71->42)
+[00:11:19.355] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (498->493)
+[00:11:19.455] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (492->472)
+[00:11:19.622] npc_dota_hero_pangolier casts ability pangolier_swashbuckle (lvl 1) on dota_unknown
+[00:11:20.088] npc_dota_hero_pangolier hits npc_dota_hero_rubick with pangolier_swashbuckle for 19 damage (44->25)
+[00:11:20.222] npc_dota_hero_pangolier hits npc_dota_hero_rubick with pangolier_swashbuckle for 19 damage (26->7)
+[00:11:20.255] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (474->529)
+[00:11:20.322] npc_dota_hero_pangolier hits npc_dota_hero_rubick with pangolier_swashbuckle for 19 damage
+[00:11:20.322] npc_dota_hero_rubick is killed by npc_dota_hero_pangolier
+[00:11:20.355] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (528->523)
+[00:11:20.488] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (524->504)
+[00:11:21.355] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (505->500)
+[00:11:21.388] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 47 damage (610->563)
+[00:11:21.521] npc_dota_hero_mars uses item_quelling_blade
+[00:11:22.355] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (501->496)
+[00:11:22.554] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 61 damage (507->446)
+[00:11:23.621] npc_dota_hero_death_prophet hits npc_dota_hero_dragon_knight with dota_unknown for 47 damage (800->753)
+[00:11:23.821] npc_dota_hero_rubick buys item item_magic_stick
+[00:11:23.954] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 60 damage (448->388)
+[00:11:24.521] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 40 damage (683->643)
+[00:11:24.554] npc_dota_hero_pangolier buys item item_magic_stick
+[00:11:24.654] npc_dota_hero_puck casts ability puck_illusory_orb (lvl 1) on dota_unknown
+[00:11:24.687] npc_dota_hero_puck hits npc_dota_hero_bane with puck_illusory_orb for 52 damage (644->592)
+[00:11:24.721] npc_dota_hero_pangolier buys item item_recipe_magic_wand
+[00:11:25.387] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 60 damage (392->332)
+[00:11:25.387] npc_dota_hero_pangolier uses item_tango
+[00:11:25.687] npc_dota_hero_puck hits npc_dota_hero_bloodseeker with puck_illusory_orb for 57 damage (533->476)
+[00:11:26.120] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 44 damage (589->545)
+[00:11:26.787] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 64 damage (335->271)
+[00:11:27.620] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 42 damage (543->501)
+[00:11:28.286] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 60 damage (275->215)
+[00:11:28.553] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:11:28.920] npc_dota_hero_puck uses item_tango
+[00:11:30.119] npc_dota_hero_dragon_knight buys item item_recipe_bracer
+[00:11:30.286] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (460->515)
+[00:11:31.019] npc_dota_hero_snapfire uses item_tpscroll
+[00:11:32.519] npc_dota_hero_rubick uses item_tpscroll
+[00:11:32.819] npc_dota_hero_bane uses item_tango
+[00:11:34.385] npc_dota_hero_bloodseeker uses item_quelling_blade
+[00:11:38.251] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:11:38.717] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 30 health (539->569)
+[00:11:39.150] npc_dota_hero_mars uses item_quelling_blade
+[00:11:39.250] npc_dota_hero_death_prophet hits npc_dota_hero_dragon_knight with dota_unknown for 47 damage (783->736)
+[00:11:42.783] npc_dota_hero_abyssal_underlord casts ability abyssal_underlord_firestorm (lvl 1) on dota_unknown
+[00:11:42.816] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (581->561)
+[00:11:42.816] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (560->554)
+[00:11:43.716] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 64 damage (354->290)
+[00:11:43.849] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (557->551)
+[00:11:43.849] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (551->531)
+[00:11:44.849] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (534->528)
+[00:11:44.882] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (527->507)
+[00:11:45.849] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (509->503)
+[00:11:45.915] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (503->483)
+[00:11:46.149] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (483->538)
+[00:11:46.449] npc_dota_hero_death_prophet buys item item_null_talisman
+[00:11:46.449] npc_dota_hero_death_prophet buys item item_recipe_null_talisman
+[00:11:46.749] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 39 damage (600->561)
+[00:11:46.849] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (540->534)
+[00:11:46.949] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (535->515)
+[00:11:47.848] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (516->511)
+[00:11:48.415] npc_dota_hero_rubick hits npc_dota_hero_snapfire with dota_unknown for 36 damage (565->529)
+[00:11:48.415] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:11:48.848] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (514->508)
+[00:11:49.181] npc_dota_hero_snapfire casts ability snapfire_scatterblast (lvl 1) on dota_unknown
+[00:11:49.381] npc_dota_hero_snapfire hits npc_dota_hero_rubick with snapfire_scatterblast for 59 damage (639->580)
+[00:11:50.948] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (514->569)
+[00:11:51.481] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 48 damage (800->752)
+[00:11:51.614] npc_dota_hero_dragon_knight casts ability dragon_knight_breathe_fire (lvl 1) on dota_unknown
+[00:11:51.647] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with dota_unknown for 56 damage (571->515)
+[00:11:51.814] npc_dota_hero_dragon_knight hits npc_dota_hero_death_prophet with dragon_knight_breathe_fire for 67 damage (780->713)
+[00:11:52.147] npc_dota_hero_death_prophet casts ability death_prophet_carrion_swarm (lvl 2) on dota_unknown
+[00:11:52.181] npc_dota_hero_bloodseeker hits npc_dota_hero_abyssal_underlord with dota_unknown for 40 damage (754->714)
+[00:11:52.281] npc_dota_hero_death_prophet hits npc_dota_hero_dragon_knight with death_prophet_carrion_swarm for 115 damage (879->764)
+[00:11:52.847] npc_dota_hero_bane hits npc_dota_hero_abyssal_underlord with dota_unknown for 33 damage (715->682)
+[00:11:52.914] npc_dota_hero_death_prophet hits npc_dota_hero_dragon_knight with dota_unknown for 23 damage (769->746)
+[00:11:53.114] npc_dota_hero_dragon_knight hits npc_dota_hero_death_prophet with dota_unknown for 45 damage (716->671)
+[00:11:53.314] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 37 damage (642->605)
+[00:11:54.113] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 60 damage (323->263)
+[00:11:54.180] npc_dota_hero_puck casts ability puck_illusory_orb (lvl 1) on dota_unknown
+[00:11:54.347] npc_dota_hero_puck hits npc_dota_hero_bane with puck_illusory_orb for 52 damage (598->546)
+[00:11:54.913] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (514->569)
+[00:11:55.080] npc_dota_hero_puck hits npc_dota_hero_bloodseeker with puck_illusory_orb for 57 damage (569->512)
+[00:11:55.113] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 39 damage (539->500)
+[00:11:55.746] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 57 damage (267->210)
+[00:11:59.779] npc_dota_hero_bane uses item_tango
+[00:12:00.045] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:12:00.645] npc_dota_hero_pangolier buys item item_magic_wand
+[00:12:00.945] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (512->567)
+[00:12:04.611] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (554->609)
+[00:12:04.644] npc_dota_hero_mars uses item_quelling_blade
+[00:12:06.710] npc_dota_hero_bloodseeker uses item_tango
+[00:12:08.710] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 30 health (621->651)
+[00:12:10.676] npc_dota_hero_abyssal_underlord casts ability abyssal_underlord_firestorm (lvl 1) on dota_unknown
+[00:12:10.709] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bane with abyssal_underlord_firestorm for 18 damage (631->613)
+[00:12:10.709] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bane with abyssal_underlord_firestorm for 5 damage (612->607)
+[00:12:10.709] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (670->652)
+[00:12:10.709] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (651->646)
+[00:12:11.742] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (656->651)
+[00:12:11.742] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bane with abyssal_underlord_firestorm for 5 damage (620->615)
+[00:12:11.909] npc_dota_hero_puck uses item_tango
+[00:12:12.076] npc_dota_hero_dragon_knight casts ability dragon_knight_breathe_fire (lvl 2) on dota_unknown
+[00:12:12.409] npc_dota_hero_dragon_knight hits npc_dota_hero_death_prophet with dragon_knight_breathe_fire for 126 damage (727->601)
+[00:12:12.742] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (660->655)
+[00:12:12.742] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bane with abyssal_underlord_firestorm for 5 damage (626->621)
+[00:12:12.776] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 18 damage (656->638)
+[00:12:12.776] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 5 damage (637->632)
+[00:12:12.842] npc_dota_hero_bloodseeker casts ability bloodseeker_bloodrage (lvl 1) on npc_dota_hero_bloodseeker
+[00:12:13.809] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (642->636)
+[00:12:13.809] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (635->615)
+[00:12:14.442] npc_dota_hero_mars uses item_quelling_blade
+[00:12:14.542] npc_dota_hero_puck casts ability puck_illusory_orb (lvl 1) on dota_unknown
+[00:12:14.608] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 44 damage (641->597)
+[00:12:14.808] npc_dota_hero_puck hits npc_dota_hero_bane with puck_illusory_orb for 52 damage (599->547)
+[00:12:14.808] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (624->618)
+[00:12:14.842] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (618->598)
+[00:12:15.108] npc_dota_neutral_harpy_scout is killed by npc_dota_hero_pangolier
+[00:12:15.375] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 58 damage (281->223)
+[00:12:15.675] npc_dota_hero_bane casts ability bane_nightmare (lvl 1) on npc_dota_hero_puck
+[00:12:15.808] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (607->601)
+[00:12:15.875] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 20 damage (602->582)
+[00:12:15.908] npc_dota_hero_puck hits npc_dota_hero_bane with dota_unknown for 40 damage (559->519)
+[00:12:15.908] npc_dota_hero_puck hits npc_dota_hero_bloodseeker with puck_illusory_orb for 57 damage (581->524)
+[00:12:16.808] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (533->527)
+[00:12:16.841] npc_dota_hero_snapfire casts ability snapfire_scatterblast (lvl 1) on dota_unknown
+[00:12:17.141] npc_dota_hero_pangolier hits npc_dota_hero_rubick with dota_unknown for 46 damage (673->627)
+[00:12:17.474] npc_dota_hero_dragon_knight buys item item_circlet
+[00:12:17.608] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 62 damage (258->196)
+[00:12:17.641] npc_dota_hero_dragon_knight buys item item_recipe_bracer
+[00:12:17.808] npc_dota_hero_abyssal_underlord hits npc_dota_hero_bloodseeker with abyssal_underlord_firestorm for 6 damage (537->531)
+[00:12:17.908] npc_dota_hero_bloodseeker's bloodseeker_bloodrage heals npc_dota_hero_bloodseeker for 55 health (532->587)
+[00:12:18.374] npc_dota_hero_death_prophet casts ability death_prophet_carrion_swarm (lvl 2) on dota_unknown
+[00:12:19.041] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 60 damage (210->150)
+[00:12:19.374] npc_dota_hero_snapfire casts ability snapfire_firesnap_cookie (lvl 1) on npc_dota_hero_snapfire
+[00:12:19.507] npc_dota_hero_rubick hits npc_dota_hero_pangolier with dota_unknown for 40 damage (618->578)
+[00:12:19.974] npc_dota_hero_mars uses item_quelling_blade
+[00:12:20.074] npc_dota_hero_puck casts ability puck_waning_rift (lvl 1) on dota_unknown
+[00:12:20.074] npc_dota_hero_puck hits npc_dota_hero_bane with puck_waning_rift for 52 damage (537->485)
+[00:12:20.240] npc_dota_hero_bane uses item_enchanted_mango
+[00:12:20.774] npc_dota_hero_rubick casts ability rubick_fade_bolt (lvl 1) on npc_dota_neutral_harpy_storm
+[00:12:20.874] npc_dota_hero_bane hits npc_dota_hero_puck with dota_unknown for 56 damage (167->111)
+[00:12:21.207] npc_dota_neutral_harpy_storm is killed by npc_dota_creep_goodguys_ranged
+[00:12:21.207] npc_dota_hero_snapfire uses item_clarity
+[00:12:21.607] npc_dota_hero_rubick hits npc_dota_hero_pangolier with dota_unknown for 39 damage (583->544)
+[00:12:21.807] npc_dota_hero_rubick hits npc_dota_hero_pangolier with rubick_fade_bolt for 42 damage (544->502)
+[00:12:22.107] npc_dota_hero_bloodseeker uses item_quelling_blade
