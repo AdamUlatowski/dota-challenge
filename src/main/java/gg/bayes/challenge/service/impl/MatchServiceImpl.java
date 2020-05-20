@@ -46,10 +46,6 @@ public class MatchServiceImpl implements MatchService {
     public static final String PURCHASE_ITEM = "buys item";
     public static final String HERO_KILL = "is killed by";
     private List<String> matchers = List.of(CAST_SPELL, HIT, PURCHASE_ITEM, HERO_KILL);
-    private Set<CastedSpellEvent> castedSpellEvents = new HashSet<>();
-    private Set<DamageEvent> damageEvents = new HashSet<>();
-    private Set<HeroKillEvent> heroKillEvents = new HashSet<>();
-    private Set<ItemPurchaseEvent> itemPurchaseEvents = new HashSet<>();
 
     private final MatchPayloadParser payloadParser;
     private final MatchRepository matchRepository;
@@ -64,22 +60,29 @@ public class MatchServiceImpl implements MatchService {
 
     @Override
     public Long ingestMatch(String payload) {
+        Set<CastedSpellEvent> castedSpellEvents = new HashSet<>();
+        Set<DamageEvent> damageEvents = new HashSet<>();
+        Set<HeroKillEvent> heroKillEvents = new HashSet<>();
+        Set<ItemPurchaseEvent> itemPurchaseEvents = new HashSet<>();
         Match match = matchRepository.save(Match.builder().build());
         payload.lines()
             .filter(line -> matchers.stream().anyMatch(line::contains))
             .forEach(line -> {
                 if (line.contains(CAST_SPELL)) {
-                    ingestSpellEvent(match, line);
+                    ingestSpellEvent(castedSpellEvents, match, line);
                 } else if (line.contains(HIT)) {
-                    ingestHitEvent(match, line);
+                    ingestHitEvent(damageEvents, match, line);
                 } else if (line.contains(PURCHASE_ITEM)) {
-                    ingestItemEvent(match, line);
+                    ingestItemEvent(itemPurchaseEvents, match, line);
                 } else if (line.contains(HERO_KILL)) {
-                    ingestKillEvent(match, line);
+                    ingestKillEvent(heroKillEvents, match, line);
                 }
             });
-        persistEvents();
-        clearEventSets();
+
+        castedSpellRepository.saveAll(castedSpellEvents);
+        damageEventRepository.saveAll(damageEvents);
+        killEventRepository.saveAll(heroKillEvents);
+        itemPurchaseRepository.saveAll(itemPurchaseEvents);
 
         return match.getId();
     }
@@ -89,7 +92,7 @@ public class MatchServiceImpl implements MatchService {
         Optional<List<HeroKillEvent>> kills = killEventRepository.findByMatchId(matchId);
         if (kills.isPresent() && kills.get().size() > 0) {
             Map<String, Long> assailantWithKillCount = kills.get().stream()
-                .map(e -> e.getAssailant())
+                .map(HeroKillEvent::getAssailant)
                 .collect(groupingBy(Hero::getName, counting()));
             return assailantWithKillCount.entrySet().stream()
                 .map(e -> HeroKills.builder()
@@ -110,7 +113,7 @@ public class MatchServiceImpl implements MatchService {
             return items.get().stream()
                 .map(e -> HeroItems.builder()
                     .item(e.getItem().getName())
-                    .timestamp(Long.valueOf(e.getCreated().toSecondOfDay()))
+                    .timestamp((long) e.getCreated().toSecondOfDay())
                     .build())
                 .collect(Collectors.toList());
         } else {
@@ -124,7 +127,7 @@ public class MatchServiceImpl implements MatchService {
             castedSpellRepository.findByMatchIdAndHeroName(matchId, heroName);
         if (spells.isPresent() && spells.get().size() > 0) {
             Map<String, Long> spellsWithCount = spells.get().stream()
-                .map(e -> e.getSpell())
+                .map(CastedSpellEvent::getSpell)
                 .collect(groupingBy(Spell::getName, counting()));
             return spellsWithCount.entrySet().stream()
                 .map(e -> HeroSpells.builder()
@@ -156,21 +159,7 @@ public class MatchServiceImpl implements MatchService {
         }
     }
 
-    private void clearEventSets() {
-        castedSpellEvents.clear();
-        damageEvents.clear();
-        heroKillEvents.clear();
-        itemPurchaseEvents.clear();
-    }
-
-    private void persistEvents() {
-        castedSpellRepository.saveAll(castedSpellEvents);
-        damageEventRepository.saveAll(damageEvents);
-        killEventRepository.saveAll(heroKillEvents);
-        itemPurchaseRepository.saveAll(itemPurchaseEvents);
-    }
-
-    private void ingestKillEvent(Match match, String line) {
+    private void ingestKillEvent(Set<HeroKillEvent> heroKillEvents, Match match, String line) {
         Hero assailant = payloadParser.parseSecondHero(line);
         Hero victim = payloadParser.parseFirstHero(line);
         if (assailant == null || victim == null) {
@@ -187,7 +176,8 @@ public class MatchServiceImpl implements MatchService {
         heroKillEvents.add(event);
     }
 
-    private void ingestItemEvent(Match match, String line) {
+    private void ingestItemEvent(Set<ItemPurchaseEvent> itemPurchaseEvents,
+        Match match, String line) {
         Item item = payloadParser.parseItem(line);
         Hero hero = payloadParser.parseFirstHero(line);
         if (item == null || hero == null) {
@@ -204,7 +194,7 @@ public class MatchServiceImpl implements MatchService {
         itemPurchaseEvents.add(event);
     }
 
-    private void ingestHitEvent(Match match, String line) {
+    private void ingestHitEvent(Set<DamageEvent> damageEvents, Match match, String line) {
         Hero assailant = payloadParser.parseFirstHero(line);
         Hero victim = payloadParser.parseSecondHero(line);
         Integer damage = payloadParser.parseDamage(line);
@@ -223,7 +213,8 @@ public class MatchServiceImpl implements MatchService {
         damageEvents.add(event);
     }
 
-    private void ingestSpellEvent(Match match, String line) {
+    private void ingestSpellEvent(Set<CastedSpellEvent> castedSpellEvents,
+        Match match, String line) {
         Hero firstHero = payloadParser.parseFirstHero(line);
         Spell spell = payloadParser.parseSpell(line);
         if (firstHero == null || spell == null) {
@@ -242,28 +233,16 @@ public class MatchServiceImpl implements MatchService {
 
     private Hero persistHero(Hero hero) {
         Optional<Hero> dbHero = heroRepository.findByName(hero.getName());
-        if (dbHero.isPresent()) {
-            return dbHero.get();
-        } else {
-            return heroRepository.save(hero);
-        }
+        return dbHero.orElseGet(() -> heroRepository.save(hero));
     }
 
     private Item persistItem(Item item) {
         Optional<Item> dbItem = itemRepository.findByName(item.getName());
-        if (dbItem.isPresent()) {
-            return dbItem.get();
-        } else {
-            return itemRepository.save(item);
-        }
+        return dbItem.orElseGet(() -> itemRepository.save(item));
     }
 
     private Spell persistSpell(Spell spell) {
         Optional<Spell> dbSpell = spellRepository.findByName(spell.getName());
-        if (dbSpell.isPresent()) {
-            return dbSpell.get();
-        } else {
-            return spellRepository.save(spell);
-        }
+        return dbSpell.orElseGet(() -> spellRepository.save(spell));
     }
 }
